@@ -16,6 +16,24 @@
       "revId": "87696cf4efba53181cd52b3bcc20c414eaad6c61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_0df4a7f0",
+        "filename": "include/linux/sched.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 1860,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2017-05-14T02:35:46Z",
+      "side": 1,
+      "message": "that\u0027s wrong, it has to be only a single bit, use 0x00000002, that is free for use in your kernel",
+      "parentUuid": "1a486d77_ed738baf",
+      "revId": "87696cf4efba53181cd52b3bcc20c414eaad6c61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
